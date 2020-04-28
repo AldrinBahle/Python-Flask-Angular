@@ -1,2 +1,2 @@
-# Uzuri-Ecosystem
+# UZURI-Ecosystem
 e-hailing beauty services
