@@ -1,11 +1,13 @@
-from datetime import datetime
 from flask import Flask
+from flask_mysqldb import MySQL
 
 app = Flask(__name__)
 
-@app.route("/")
+
+@app.route('/')
 def home():
-    return ("Uzuri Africa")
+    return 'Uzuri Africa'
+
 
 if __name__ == '__main__':
     app.run(debug=True)
