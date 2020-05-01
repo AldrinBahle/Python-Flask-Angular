@@ -27,7 +27,7 @@ def offering_detail():
     cur.close()
     return jsonify(offering_detail)
 
-#offeringC
+#offeringCategory
 @app.route('/api/v2/offering/category', methods=['GET'])
 def offering_Cat():
     cur = mysql.connection.cursor()
