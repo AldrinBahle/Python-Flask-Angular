@@ -1,7 +1,7 @@
 # UZURI-Ecosystem
 e-hailing beauty services
 
-## Getting Started
+## Getting Started      
 
 * Obvious you need to clone everything and me on the folder carring the files, Start the server by running main.py file
 
