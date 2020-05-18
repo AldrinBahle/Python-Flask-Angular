@@ -13,12 +13,12 @@ cd Uzuri-Africa-Ecosystem
 NB: Create a local branch immediately by running:
 git checkout -b Your_branch_name
 
-Make sure that you have installed angular in your computer, if not please run the following command, 
+Make sure that you have installed angular in your computer, if not please run the following command,
 npm install -g @angular/cli
 
 Have your computer running on the latest version of python, which is python 3, if you don’t have it yet please run:
 pip install python
- or 
+or
 pip3 install python
 on MacOS.
 
