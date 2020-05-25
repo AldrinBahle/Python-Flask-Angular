@@ -1,5 +1,5 @@
 ## UZURI-Ecosystem
-##### e-hailing beauty services
+#### e-hailing beauty services
 
 ##### 1. Open the cmd/terminal and perform the following sequence of steps in order to be able to run the application on your local machine.
 
