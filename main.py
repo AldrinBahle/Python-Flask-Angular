@@ -2,7 +2,6 @@ from config import app, mysql
 from flask import request, jsonify
 
 
-
 @app.route("/")
 def home():
     return ("Uzuri Africa")
