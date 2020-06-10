@@ -1,10 +1,11 @@
-from flask_mysqldb import MySQL
 from flask import Flask
+import mysql.connector
 
 app = Flask(__name__)
+db_connection = mysql.connector.connect(
+    host="uzuri.ctqphpecp3xd.ap-south-1.rds.amazonaws.com",
+    user="Mcebo",
+    passwd="uzuri@0002",
+  )
 
-app.config['MYSQL_HOST'] = ''
-app.config['MYSQL_USER'] = ''
-app.config['MYSQL_PASSWORD'] = ''
-
-mysql = MySQL(app)
+mysql = db_connection.cursor()
